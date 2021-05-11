@@ -1,0 +1,16 @@
+{
+    "name": "e-mag/hero-game",
+    "description": "HeroGame",
+    "autoload": {
+        "psr-4": {
+            "Battle\\": "src/",
+            "War\\": "src/",
+			"View\\": "view/",
+            "Libraries\\": "Libraries/"
+        },
+        "classmap": ["src/", "Libraries/"]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
